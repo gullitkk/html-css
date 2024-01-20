@@ -25,7 +25,7 @@
 }
 body {
     font-family: var(--fontepadrao);
-    background-color: var(--cor1);
+    background-color: var(--cor0);
 }
 header {
     background-image: linear-gradient(to top,#124729, #258851, #38c477b9);
