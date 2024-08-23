@@ -1,2 +1,2 @@
 # html-css
- Curso de html e css do Gustavo Guanabara
+html e css com gustavo guanabara
