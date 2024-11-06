@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .cabeçalho {
     background-color: var(--branco);
     display: flex;
@@ -13,28 +14,40 @@
     align-items: center;
     position: relative;
 }
+
 .conteiner {
     display: flex;
     align-items: center;
 }
+
 .container_img {
     padding: 0.25em;
 }
+
 .lista-menu {
     display: none;
     position: absolute;
     width: 60vw;
 }
+
 .container_botao:checked~.lista-menu {
     display: block;
 }
+
+.container_botao {
+    display: none;
+}
+
 .lista-menu_titulo, .lista-menu_item {
     background-color: var(--branco);
     padding: 1em;
 }
+
 .lista-menu_titulo {
     color: var(--amarelo-mostarda);
+    font-weight: 700;
 }
+
 .lista-menu_link {
     background: var(--azul-degrade);
     -webkit-background-clip: text;

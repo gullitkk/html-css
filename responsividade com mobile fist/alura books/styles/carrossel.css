@@ -1,0 +1,18 @@
+.carrossel {
+    background-color: var(--branco);
+    text-align: center;
+}
+.carrossel_titulo {
+    color: var(--amarelo-mostarda);
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em;
+}
+.swiper-slide img {
+    width: 100%;
+}
+.swiper-page {
+    position: initial;
+    margin: .5em 0;
+}
