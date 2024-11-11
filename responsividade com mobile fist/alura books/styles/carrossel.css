@@ -66,7 +66,10 @@
 .card_conteudo {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.75em;
+}
+.conteudo {
+    margin-right: 0.75em;
 }
 .card_botaos2 {
     display: flex;
@@ -85,13 +88,13 @@
 .card_titulo {
     color: var(--amarelo-mostarda);
     font-weight: 700;
-    margin-top: 0.5em;
+    margin-top: 0.75em;
 }
 .card_titulo-livro {
     font-weight: 700;
     font-size: 18px;
     color: var(--azul);
-    margin: 0.5em 0;
+    margin: 0.75em 0;
 }
 .card_texto {
     font-size: 14px;
